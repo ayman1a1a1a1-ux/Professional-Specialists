@@ -50,7 +50,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="lg:col-span-7 space-y-6 text-right">
             <div className="space-y-3">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight sm:leading-snug">
-                شريككم المحاسبي والمهني المعتمد لنمو أعمالكم وامتثالكم الزكوي
+                المتخصصون المهنيون: محاسب قانوني واستشارات مالية وزكوية في الرياض
               </h1>
               <p className="text-lg sm:text-xl font-bold text-sky-400">
                 المتخصصون المهنيون للإستشارات المهنية
