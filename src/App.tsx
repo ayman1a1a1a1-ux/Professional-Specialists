@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
+import { ProfessionalServicesSection } from './components/ProfessionalServicesSection';
 import { CostEstimator } from './components/CostEstimator';
 import { WhyUsSection } from './components/WhyUsSection';
 import { ZatcaTaxSection } from './components/ZatcaTaxSection';
@@ -64,6 +65,9 @@ export default function App() {
           onSelectService={(service) => setSelectedService(service)}
           onRequestQuote={(serviceId) => handleOpenConsultationModal(serviceId)}
         />
+
+        {/* Detailed professional services overview */}
+        <ProfessionalServicesSection />
 
         {/* Cost & Fee Estimator */}
         <CostEstimator
